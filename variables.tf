@@ -113,13 +113,13 @@ variable "s3_admin_bucket_name" {
 
 variable "admin_domain_name" {
  type         = string
- default      = "dev04-admin.com"
+ default      = "xxxxx.com"
 }
 
 #CloudFront details of admin and customer site
 variable "cert_cloud" {
  type         = string
- default      = "arn:aws:acm:us-east-1:xxxxxx:certificate/f268fb25-56a8-49b3-9e31-59e153f037d2"
+ default      = "arn:aws:acm:us-east-1:xxxxxx:certificate/xxxxxxxxx"
 }
 variable "common_tags" {
   description = "Common tags you want applied to all components."
